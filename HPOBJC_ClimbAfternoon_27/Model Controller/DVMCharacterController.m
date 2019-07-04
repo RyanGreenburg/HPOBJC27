@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Magic Strings
 static NSString * const baseURLString = @"https://www.potterapi.com/v1/";
-static NSString * const characterString = @"character";
+static NSString * const characterString = @"characters";
 static NSString * const apiKeyString = @"key";
 static NSString * const apiKeyValue = @"$2a$10$uEUb0sbBGTrwN4dmVc58EuMdKYSc7LjRN1AOPH2J9fgX66iScioiy";
 
