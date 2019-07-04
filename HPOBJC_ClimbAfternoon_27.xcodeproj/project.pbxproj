@@ -10,6 +10,7 @@
 		6284535822CD5ED6005F5F17 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284535722CD5ED6005F5F17 /* CharacterViewController.swift */; };
 		6284535B22CD5F22005F5F17 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284535A22CD5F22005F5F17 /* CharacterTableViewCell.swift */; };
 		6284536022CE6D28005F5F17 /* DVMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6284535F22CE6D28005F5F17 /* DVMCharacter.m */; };
+		6284536322CE764D005F5F17 /* DVMCharacterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6284536222CE764D005F5F17 /* DVMCharacterController.m */; };
 		62F89C3722CD5D48007CE2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F89C3622CD5D48007CE2C1 /* AppDelegate.m */; };
 		62F89C3D22CD5D48007CE2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F89C3B22CD5D48007CE2C1 /* Main.storyboard */; };
 		62F89C3F22CD5D49007CE2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F89C3E22CD5D49007CE2C1 /* Assets.xcassets */; };
@@ -42,6 +43,8 @@
 		6284535A22CD5F22005F5F17 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 		6284535E22CE6D28005F5F17 /* DVMCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCharacter.h; sourceTree = "<group>"; };
 		6284535F22CE6D28005F5F17 /* DVMCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCharacter.m; sourceTree = "<group>"; };
+		6284536122CE764D005F5F17 /* DVMCharacterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCharacterController.h; sourceTree = "<group>"; };
+		6284536222CE764D005F5F17 /* DVMCharacterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCharacterController.m; sourceTree = "<group>"; };
 		62F89C3222CD5D48007CE2C1 /* HPOBJC_ClimbAfternoon_27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPOBJC_ClimbAfternoon_27.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F89C3522CD5D48007CE2C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62F89C3622CD5D48007CE2C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 		6284535D22CE6A2B005F5F17 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6284536122CE764D005F5F17 /* DVMCharacterController.h */,
+				6284536222CE764D005F5F17 /* DVMCharacterController.m */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				62F89C4522CD5D49007CE2C1 /* main.m in Sources */,
 				62F89C3722CD5D48007CE2C1 /* AppDelegate.m in Sources */,
 				6284535B22CD5F22005F5F17 /* CharacterTableViewCell.swift in Sources */,
+				6284536322CE764D005F5F17 /* DVMCharacterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
